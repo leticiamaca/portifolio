@@ -1,0 +1,89 @@
+@charset " UTF-8";
+
+
+
+
+
+
+
+@media screen and (max-width:667px){
+    header{
+    max-width: 100%;
+    max-height: 93vh;
+    flex-direction: column;
+}
+
+nav > menu >ul{
+    justify-content: space-evenly;
+}
+header>img{
+    max-width: 300px;
+}
+.competencias{
+   display: grid;
+   grid-template-columns: 1fr;
+   margin: 20px;
+ font-size: 14px;
+}
+ main>section >div>img{
+    max-width: 3.5rem;
+    
+}
+
+.estudos{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.foto{
+    max-width: 15em;
+    margin: auto;
+}
+
+.senai, .diome, .curso-em-video, .ingles, .escola{
+    max-width: 6em;
+}
+
+.estudos>div>p{
+    max-width: 10rem; 
+    font-size: 12px;
+}
+
+
+.sobre-mim{
+    flex-direction: column;
+}
+.sobre-mim>img{
+    max-width: 20em;
+    background-color: var(--corpink);
+    border-radius: 60%;
+}
+
+footer>div>a>img{
+    max-width: 2em;
+ margin: 10px;
+ z-index: 0.5;
+
+}
+}
+
+
+
+
+@media screen and (min-width: 992px) and (max-width:1024){
+    header{
+        height: 50vh;
+    }
+
+    .estudos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0;
+        gap: 0;
+    }
+
+    .sobre-mim{
+        flex-direction: column;
+    }
+}
+
