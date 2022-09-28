@@ -199,10 +199,52 @@ color: var(--cortexto);
 
 
 .celular{
+    width: 400px;
+height: 300px;
     text-align: center;
+    display: flex;
+  
+    align-items: center;
     margin: auto;
- 
+  
 }
+
+iframe#tela{
+    padding: 30px;
+   width: 375px;
+   height: 500px;
+   border-radius: 10%;
+}
+
+.titulo-projeto{
+    color: var(--cortexto);
+    padding: 20px;
+
+}
+section#links>a>img{
+    margin: 10px;
+width: 60px;
+padding: 15px;
+border-radius: 10%;
+   background-color: #F19489;
+}
+section#links>a:hover{
+    padding: 17px;
+}
+
+
+.link-voltar{
+    padding: 20px;
+}
+
+.link-voltar>a{
+      color: var(--cortexto);
+    text-decoration: none;
+}
+.link-voltar>a:hover{
+    text-decoration: underline;
+}
+
 
 
 
